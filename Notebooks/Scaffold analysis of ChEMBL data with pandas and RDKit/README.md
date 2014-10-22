@@ -1,0 +1,2 @@
+### Scaffold analysis of ChEMBL data with pandas and RDKit
+[Rendered Notebook](http://nbviewer.ipython.org/github/samoturk/UGM_2014/blob/scaffoldAnalysis/Notebooks/Scaffold%20analysis%20of%20ChEMBL%20data%20with%20pandas%20and%20RDKit/Scaffold%20analysis%20of%20ChEMBL%20data%20with%20pandas%20and%20RDKit%20-%20RDKit%20UGM2014.ipynb)
