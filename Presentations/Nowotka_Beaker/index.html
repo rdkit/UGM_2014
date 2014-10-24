@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>ChEMBL beaker</title>
+    <meta name="description" content="Web based presentation providing an update on Beaker server.">
+    <meta name="author" content="Michał Nowotka">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/reveal.css">
+
+    <link href="http://www.ebi.ac.uk/favicon.ico" rel="icon"/>
+
+    <link rel="stylesheet" href="css/theme/zen.css" id="theme">
+    <link rel="stylesheet" href="http://yandex.st/highlightjs/7.3/styles/monokai.min.css">
+    <script>
+        document.write('<link rel="stylesheet" href="css/print/' + ( window.location.search.match(/print-pdf/gi) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">');
+    </script>
+    <script src="js/modernizr.custom.53384.js"></script>
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="reveal">
+<div class="slides">
+<section>
+    <h3>Using RDKit <br />without RDKit</h3>
+    <img src="img/beaker.png" style="position:fixed;left:1%;top:2%;">
+
+    <p style="font-size:22pt;">Beaker update</p>
+
+    <p>
+        <small>Michał Nowotka<br/>ChEMBL Group<br/>EMBL-EBI</small>
+    </p>
+</section>
+<section>
+    <h3>What is Beaker?</h3>
+    <p class="fragment">
+        Remote RDKit (and OSRA) accessible over HTTP from the Internet or locally.
+    </p>
+</section>
+<section>
+    <h3>Can you be more specific?</h3>
+    <p>
+        <ul>
+            <li class="fragment">A lightweight web framework</li>
+            <li class="fragment">Written in Python</li>
+            <li class="fragment">Based on Bottle</li>
+            <li class="fragment">Exposing REST API</li>
+            <li class="fragment">Providing cheminformatics services</li>
+            <li class="fragment">Easy to extend and modify</li>
+        </ul>
+    </p>
+</section>
+<section>
+    <h3>What has changed?</h3>
+    <p>
+        <ul>
+            <li class="fragment">Beaker was first presented a year ago</li>
+            <li class="fragment">It's not a pet project anymore</li>
+            <li class="fragment">Production ready</li>
+            <li class="fragment">In fact, used in production already!</li>
+        </ul>
+    </p>
+</section>
+<section>
+    <h3>What's new then?</h3>
+    <p>
+        <ul>
+            <li class="fragment">Live online documentation</li>
+            <li class="fragment">Better configuration</li>
+            <li class="fragment">Caching system</li>
+            <li class="fragment">Throttling system</li>
+            <li class="fragment">Authentication</li>
+            <li class="fragment">Better security</li>
+            <li class="fragment">New methods</li>
+        </ul>
+    </p>
+</section>
+<section>
+    <h3>What's new then?</h3>
+    <p>
+        <ul>
+            <li class="fragment">mod_wsgi ready (Apache, NGINX)</li>
+            <li class="fragment">Python client library</li>
+            <li class="fragment">Development server improved</li>
+            <li class="fragment">Lots of bugfixes</li>
+            <li class="fragment">Easier to extend/write own methods</li>
+        </ul>
+    </p>
+</section>
+<section>
+    <h3>How to install it?</h3>
+
+    <pre class="fragment"><code class="bash">
+        sudo pip install chembl_beaker
+    </code></pre>
+
+</section>
+
+<section>
+    <h3>Can I use it without installing?</h3>
+
+    <h6 class="fragment">Yes!</h6>
+    <h3 class="fragment">Yes!!</h3>
+    <h1 class="fragment">Yes!!!</h1>
+
+</section>
+
+<section>
+    <h3>Beaker availability:</h3>
+    <p>
+        <ul>
+            <li class="fragment">PyPi (`pip install chembl_beaker`)</li>
+            <li class="fragment">myChEMBL</li>
+            <li class="fragment"><a href="https://www.ebi.ac.uk/chembl/api/utils/docs" target="_blank" >online</a></li>
+        </ul>
+    </p>
+</section>
+
+<section>
+    <h3>Using Beaker from myChEMBL:</h3>
+
+    <pre class="fragment"><code class="bash">
+        vagrant init chembl/myChEMBL
+        vagrant up
+    </code></pre>
+
+</section>
+
+<section>
+    <h3>Using public instance of Beaker:</h3>
+
+    <p>
+        <ul>
+            <li class="fragment">IP-based rate limiting: 1 request per sec</li>
+            <li class="fragment">You can ask for an API key</li>
+            <li class="fragment"><a href="https://www.ebi.ac.uk/chembl/api/utils/docs" target="_blank" >https://www.ebi.ac.uk/chembl/api/utils/docs</a></li>
+            <li class="fragment">as an addition to: <a href="https://www.ebi.ac.uk/chemblws/docs" target="_blank" >https://www.ebi.ac.uk/chemblws/docs</a></li>
+        </ul>
+    </p>
+
+</section>
+
+<section>
+    <h3>For Python, we provide a very convenient client library:</h3>
+
+    <pre class="fragment"><code class="bash">
+        pip install chembl-webresource-client
+    </code></pre>
+
+</section>
+
+<section>
+    <h3>Beaker client library:</h3>
+
+    <p>
+        <ul>
+            <li class="fragment">Caches results</li>
+            <li class="fragment">Generates methods from SPORE specs</li>
+            <li class="fragment">By default uses public instance of Beaker...</li>
+            <li class="fragment">... but can be configured</li>
+            <li class="fragment">Described in 07_* my_ChEMBL python notebook</li>
+        </ul>
+    </p>
+
+</section>
+<section>
+    <h3>Potential use cases:</h3>
+    <p>
+        <ul>
+            <li class="fragment">Web widgets</li>
+            <li class="fragment">Mobile applications</li>
+            <li class="fragment">Desktop applications</li>
+            <li class="fragment">Ipython notebooks</li>
+            <li class="fragment">Fast prototyping</li>
+            <li class="fragment">Marvin 4 JS backend</li>
+        </ul>
+    </p>
+</section>
+<section>
+    <h3>Caching backends:</h3>
+
+    <p>
+        <ul>
+            <li class="fragment">MongoDB (for production)</li>
+            <li class="fragment">Memcached (for production)</li>
+            <li class="fragment">SQLite (for testing)</li>
+            <li class="fragment">Local memory (for testing)</li>
+            <li class="fragment">Your own?</li>
+        </ul>
+    </p>
+
+</section>
+
+<section>
+    <h3>Throttling backends:</h3>
+
+    <p>
+        <ul>
+            <li class="fragment">Cache</li>
+            <li class="fragment">Your own?</li>
+        </ul>
+    </p>
+
+</section>
+
+<section>
+    <h3>Authentication:</h3>
+
+    <p>
+        <ul>
+            <li class="fragment">IP based</li>
+            <li class="fragment">API Key</li>
+            <li class="fragment">Your own?</li>
+        </ul>
+    </p>
+
+</section>
+
+<section>
+    <h3>Security:</h3>
+
+    <p>
+        <ul>
+            <li class="fragment">Cross-origin requests controlled</li>
+            <li class="fragment">Rate limiting (DDOS)</li>
+            <li class="fragment">No persistence, no SQL injection</li>
+            <li class="fragment">URL-safe base64 encoding for url parameters</li>
+            <li class="fragment">IP white/black listing</li>
+            <li class="fragment">Maximum file upload size (configurable)</li>
+        </ul>
+    </p>
+
+</section>
+
+<section>
+    <h2>Future</h2>
+    <ul>
+        <li class="fragment">Sessions</li>
+        <li class="fragment">Parallel processing</li>
+        <li class="fragment">More support for creating pipelines...</li>
+        <li class="fragment">...KNIME like web interface?</li>
+        <li class="fragment">Windows binary</li>
+        <li class="fragment">ReadTheDocs documentation and separate website</li>
+        <li class="fragment">Improved live docs</li>
+    </ul>
+
+</section>
+
+<section>
+    <h2>Code!</h2>
+
+    <p>Beaker code is available as github repository:
+        <br/>
+        <a href="https://github.com/mnowotka/chembl_beaker">https://github.com/mnowotka/chembl_beaker</a>
+        <br/>
+    </p>
+
+</section>
+
+
+<section>
+    <h2>Thank you!</h2>
+
+    <p>Questions?</p>
+</section>
+</div>
+
+</div>
+<footer>
+    <div style="">
+        <a href="mailto:mnowotka@ebi.ac.uk">mnowotka@ebi.ac.uk</a>
+        <img src="img/ebi_logo.png"/>Darmstadt, 23 October 2014
+    </div>
+</footer>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+
+<script>
+
+    // Full list of configuration options available here:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        controls:false,
+        progress:true,
+        history:true,
+        center:true,
+        overview:true,
+        transition:'linear',
+        //theme: 'zen', // available themes are in /css/theme
+        rollingLinks:false,
+        mouseWheel:true,
+        // Optional libraries used to extend on reveal.js
+        dependencies:[
+            { src:'lib/js/classList.js', condition:function () {
+                return !document.body.classList;
+            } },
+            { src:'plugin/markdown/showdown.js', condition:function () {
+                return !!document.querySelector('[data-markdown]');
+            } },
+            { src:'plugin/markdown/markdown.js', condition:function () {
+                return !!document.querySelector('[data-markdown]');
+            } },
+            { src:'plugin/highlight/highlight.js', async:true, callback:function () {
+                hljs.initHighlightingOnLoad();
+            } },
+            { src:'plugin/zoom-js/zoom.js', async:true, condition:function () {
+                return !!document.body.classList;
+            } },
+            { src:'plugin/notes/notes.js', async:true, condition:function () {
+                return !!document.body.classList;
+            } }
+        ]
+    });
+
+</script>
+
+</body>
+</html>
+
