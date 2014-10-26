@@ -16,7 +16,7 @@ Presentations / Tutorials
 
 Greg Landrum
 
-Slides: [Presentations/Landrum.StateOfTheToolkit.pdf](Presentations/Landrum.StateOfTheToolkit.pdf)
+Slides: [Presentations/Landrum_StateOfTheToolkit.pdf](Presentations/Landrum_StateOfTheToolkit.pdf)
 
 IPython Notebook: [Download](Notebooks/Whats_new.ipyb) [View](http://nbviewer.ipython.org/urls/raw.github.com/rdkit/UGM_2014/master/Notebooks/Whats_new.ipynb)
 
