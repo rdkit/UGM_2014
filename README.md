@@ -125,7 +125,7 @@ Noel O'Boyle
 
 Greg Landrum
 
-Slides: [Presentations/.pdf](Presentations/.pdf)
+Slides: [Presentations/Landrum_OpenSource.pdf](Presentations/Landrum_OpenSource.pdf)
 
 - - - - - - -
 
