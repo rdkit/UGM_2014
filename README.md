@@ -26,6 +26,10 @@ IPython Notebook: [Download](Notebooks/Whats_new.ipyb) [View](http://nbviewer.ip
 
 George Papadatos
 
+Slides: [Presentations/Papadatos_SureChEMBL.pdf](Presentations/Papadatos_SureChEMBL.pdf)
+
+IPython Notebook: [Download](Notebooks/Vardenafil.ipyb) [View](http://nbviewer.ipython.org/urls/raw.github.com/rdkit/UGM_2014/master/Notebooks/Vardenafil.ipynb)
+
 - - - - - - -
 
 **Working with Conformers from Molecular Dynamics Simulations in the RDKit**
