@@ -57,7 +57,7 @@ Ilenia Giangreco
 
 Michal Nowotka 
 
-Slides: [Presentations/Nowotka_Beaker](Presentations/Nowotka_Beaker)
+Slides: [Presentations/Nowotka_Beaker](Presentations/Nowotka_Beaker). Live version of the slides [here](https://mnowotka.github.io/presentations/beaker_update/#/)
 
 - - - - - - -
 
