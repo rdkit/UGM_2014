@@ -117,6 +117,8 @@ Samo Turk
 
 Axel Pahl
 
+Slides: [Presentations/Pahl_SDFViewer.pdf](Presentations/Pahl_SDFViewer.pdf)
+
 - - - - - - -
 
 **Using RDKit for Matched Molecular Series Analysis: When two are not enough**
