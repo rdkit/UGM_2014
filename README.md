@@ -111,8 +111,7 @@ Gregori Gerebtzoff
 
 Samo Turk
 
-IPython notebook: [Notebooks/Scaffold analysis of ChEMBL data with pandas and RDKit](Notebooks/Scaffold analysis of ChEMBL data with pandas and RDKit)
-
+IPython notebook: [Download](Notebooks/Scaffold analysis of ChEMBL data with pandas and RDKit) 
 [View](http://nbviewer.ipython.org/github/rdkit/UGM_2014/blob/master/Notebooks/Scaffold%20analysis%20of%20ChEMBL%20data%20with%20pandas%20and%20RDKit/Scaffold%20analysis%20of%20ChEMBL%20data%20with%20pandas%20and%20RDKit%20-%20RDKit%20UGM2014.ipynb) 
 
 - - - - - - -
