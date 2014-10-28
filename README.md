@@ -38,6 +38,11 @@ Sereina Riniker
 
 Slides: [Presentation/Riniker_ConformerParser.pdf](Presentations/Riniker_ConformerParser.pdf)
 
+IPython notebook: [Download](Notebooks/usage_confparser.ipynb) 
+[View](http://nbviewer.ipython.org/github/rdkit/UGM_2014/blob/master/Notebooks/usage_confparser.ipynb) 
+
+
+
 - - - - - - -
 
 **Nonadditivity analysis with the RDKit**
