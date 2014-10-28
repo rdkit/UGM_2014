@@ -36,6 +36,8 @@ IPython Notebook: [Download](Notebooks/Vardenafil.ipyb) [View](http://nbviewer.i
 
 Sereina Riniker
 
+Slides: [Presentation/Riniker_ConformerParser.pdf](Presentations/Riniker_ConformerParser.pdf)
+
 - - - - - - -
 
 **Nonadditivity analysis with the RDKit**
