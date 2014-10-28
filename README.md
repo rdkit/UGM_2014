@@ -18,7 +18,7 @@ Greg Landrum
 
 Slides: [Presentations/Landrum_StateOfTheToolkit.pdf](Presentations/Landrum_StateOfTheToolkit.pdf)
 
-IPython Notebook: [Download](Notebooks/Whats_new.ipyb) [View](http://nbviewer.ipython.org/urls/raw.github.com/rdkit/UGM_2014/master/Notebooks/Whats_new.ipynb)
+IPython Notebook: [Download](Notebooks/Whats_new.ipynb) [View](http://nbviewer.ipython.org/urls/raw.github.com/rdkit/UGM_2014/master/Notebooks/Whats_new.ipynb)
 
 - - - - - - -
 
@@ -28,7 +28,7 @@ George Papadatos
 
 Slides: [Presentations/Papadatos_SureChEMBL.pdf](Presentations/Papadatos_SureChEMBL.pdf)
 
-IPython Notebook: [Download](Notebooks/Vardenafil.ipyb) [View](http://nbviewer.ipython.org/urls/raw.github.com/rdkit/UGM_2014/master/Notebooks/Vardenafil.ipynb)
+IPython Notebook: [Download](Notebooks/Vardenafil.ipynb) [View](http://nbviewer.ipython.org/urls/raw.github.com/rdkit/UGM_2014/master/Notebooks/Vardenafil.ipynb)
 
 - - - - - - -
 
