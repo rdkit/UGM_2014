@@ -5,7 +5,9 @@ Materials from the 2014 RDKit UGM
 
 Lightning Talks
 ---------------
+**mmp_wrapper.py**
 
+Paul Czodrowski
 - - - - - - -
 
 
