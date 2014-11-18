@@ -10,6 +10,15 @@ Lightning Talks
 Paul Czodrowski
 - - - - - - -
 
+**sdf2ppt - Create Powerpoints from SDFiles**
+
+Daniel Kuhn
+
+Slides [Presentations/Kuhn_LT_sdf2ppt.pdf](Presentations/Kuhn_LT_sdf2ppt.pdf)
+
+GitHub [sdf2ppt](https://github.com/dkuhn/sdf2ppt)
+
+- - - - - - -
 
 Presentations / Tutorials
 -------------
