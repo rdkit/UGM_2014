@@ -123,6 +123,8 @@ Slides: [Presentations/Sayle_RDKitReactions.pdf](Presentations/Sayle_RDKitReacti
 
 Gregori Gerebtzoff
 
+Slides: [Presentations/Gerebtzoff_MatchedMolecularSeries.pdf](Presentations/Gerebtzoff_MatchedMolecularSeries.pdf)
+
 - - - - - - -
 
 **Scaffold analysis in Python with RDKit and pandas**
